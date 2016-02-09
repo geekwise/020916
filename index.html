@@ -2,17 +2,73 @@
 <html>
     <head>
         <title>Mobile Newsletter</title>
+        <base href="#">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'/>
-        
     </head>
     <body>
-        
-        
-        <h1 device='ios' position='vertical' >Email Newsletter</h1>
-        <h1>Shopping Cart</h1>
+       <header>Donations For At Risk Teens</header> 
 
-        
+        <nav>
+          <ul>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+     
+        <article>
+                <p>Where your donation <em>goes</em> to</p>
+                <aside>
+                    Information about where your donation goes to and the community that it serves.
+                </aside>
+        </article>
+     
+     
+     
+     
+     <section>
+        <form>
+             <span>What Are You Donating?</span>
+             <select name="select">
+              <option value="value1">Food</option> 
+              <option value="value2" selected>Clothes</option>
+              <option value="value3">Toys</option>
+            </select>
+         </form>
+     </section>
+      
+  
+      
+      
+      
+      
+       <section>
+          <span>Enter Your Email Here</span>
+          <input type="email" title="Please, provide an e-mail"/>
+
+          <fieldset>
+            <legend>Donation Amount</legend>
+                <input type="radio" name="amount" value="5" />$5.00 USD<br />
+                <input type="radio" name="amount" value="5" />$10.00 USD<br />
+                <input type="radio" name="amount" value="5" />$25.00 USD<br />
+          <input type="submit" value="Click To Donate"/>
+       </section>
+      
+       <section>
+           <span>What Area Of Fresno Would Best Be Served With Your Donation?</span>
+           <textarea name="textarea" rows="10" cols="50"></textarea><br/>
+           <button>Submit Feedback</button>
+       </section>
+       
+       <footer>
+           <address>
+               <a href='http://maps.google.com/maps?q=2210 San Joaquin St, Fresno, CA 93721'>2210 San Joaquin St</a><br/>
+               <a href="tel:1-888-287-0125">1-888-287-0125</a><br/>
+               <a href="mailto:info@bitwiseindustries.com ">info@bitwiseindustries.com</a><br/>
+           </address>
+       </footer>
     </body>
 </html>
