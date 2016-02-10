@@ -3,10 +3,11 @@
     <head>
         <title>Mobile Newsletter</title>
         <base href="#">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="text/html"/>
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'/>
+        <link type='text/css' href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet'/>
     </head>
     <body>
        <header>Donations For At Risk Teens</header> 
@@ -19,24 +20,24 @@
           </ul>
         </nav>
      
-        <article>
-                <p>Where your donation <em>goes</em> to</p>
-                <aside>
-                    Information about where your donation goes to and the community that it serves.
-                </aside>
-        </article>
+       <section>
+            <article>
+                    <p>Where your donation <em>goes</em> to</p>
+                    <aside>Information about where your donation goes to and the community that it serves.
+                    </aside>
+            </article>
+     </section>
      
      
-     
-     
+     <!-- Donation For Toys,Clothes and Food -->
      <section>
         <form>
              <span>What Are You Donating?</span>
              <select name="select">
-              <option value="value1">Food</option> 
-              <option value="value2" selected>Clothes</option>
-              <option value="value3">Toys</option>
-            </select>
+                  <option value="food">Food</option> 
+                  <option value="clothes" >Clothes</option>
+                  <option value="toys" selected>Toys</option>
+             </select>
          </form>
      </section>
       
@@ -48,18 +49,18 @@
        <section>
           <span>Enter Your Email Here</span>
           <input type="email" title="Please, provide an e-mail"/>
-
           <fieldset>
             <legend>Donation Amount</legend>
-                <input type="radio" name="amount" value="5" />$5.00 USD<br />
-                <input type="radio" name="amount" value="5" />$10.00 USD<br />
-                <input type="radio" name="amount" value="5" />$25.00 USD<br />
-          <input type="submit" value="Click To Donate"/>
+                <input type="radio" name="amount" value="5" />$5.00 USD<br/>
+                <input type="radio" name="amount" value="5" checked/>$10.00 USD<br />
+                <input type="radio" name="amount" value="5" />$25.00 USD<br/>
+                <input type="submit" value="Click To Donate"/>
+           </fieldset>
        </section>
       
        <section>
            <span>What Area Of Fresno Would Best Be Served With Your Donation?</span>
-           <textarea name="textarea" rows="10" cols="50"></textarea><br/>
+           <textarea name="feedback" rows="10" cols="50"></textarea><br/>
            <button>Submit Feedback</button>
        </section>
        
